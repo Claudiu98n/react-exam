@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React - Final Exam
+The project represents a form with data about employees.
+There are inputs for:
+* Last Name ( Nume de familie ); 
+* First Name ( Prenume ); 
+* Job ( Meserie );
+* Salary ( Salariu ), followed by currency;
+* Date of Employment ( Data Angajarii ), which will default be set to actual date.
+Data validation for the form is done manually.
 
-## Available Scripts
+## The main tehnologies used for creating the app:
+* React.js
+* Redux.js
+* React Router
+* Bootstrap
 
-In the project directory, you can run:
+## To run the project locally
+1. git clone https://github.com/Claudiu98n/react-exam.git
+2. cd react-admin-panel
+3. npm install
+4. npm start
 
-### `npm start`
+### Demo
+https://react-final-exam.herokuapp.com/
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Functionalities
+* Click on Trimiteti datele - it will send data to the page with employees;
+* Click on Spre pagina cu angajati - it will display the page with employees; if there are no employees, it will show a message which recommends to go to the main page and introduce an employee;
+* Click on Sorteaza - Dupa nume - it will sort employees by Last Name;
+* Click on Sorteaza - Dupa salariu - it will sort employees by Salary;
+* Click on Filtreaza dupa salariu: 1-2500 Lei - it will show the employees with salary between 1 and 2500 Lei;
+* Click on Filtreaza dupa salariu: 2500-4000 Lei - it will show the employees with salary between 2500 and 4000 Lei;
+* Click on Filtreaza dupa salariu: 4000-50000 Lei - it will show the employees with salary between 4000 and 50000 Lei;
+* Click on Afiseaza angajatii in ordinea originala - it will show the employees in the original order;
+* Click on Spre pagina principala - it will display the main page and automatically restore the employees in the original order.
