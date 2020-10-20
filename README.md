@@ -16,7 +16,7 @@ Data validation for the form is done manually.
 
 ## To run the project locally
 1. git clone https://github.com/Claudiu98n/react-exam.git
-2. cd react-admin-panel
+2. cd react-exam
 3. npm install
 4. npm start
 
